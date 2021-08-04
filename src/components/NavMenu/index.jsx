@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "../../styles";
-import { mainNavItems } from "./navMenuItems";
-import { NavItems } from "components/NavMenu/NavMenuItems";
-
+import { mainNavItems } from "./mainNavItems";
+import { NavItems } from "./NavItems";
 export const Menu = ({ sub, array }) => {
   return (
     <ul className={sub && styles.subMenuItem}>
